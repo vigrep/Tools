@@ -104,7 +104,7 @@ EOF
 endfunction
 
 command FormatJsonAndWrite :call FormatJsonAndWrite()<CR>
-command FormatJsonAndPrint:call FormatJsonAndPrint()<CR>
+command FormatJsonAndPrint :call FormatJsonAndPrint()<CR>
 command StrongFormatJsonAndWrite :call StrongFormatJsonAndWrite()<CR>
 nnoremap <leader>wj :call FormatJsonAndWrite()<CR>
 nnoremap <leader>pj :call FormatJsonAndPrint()<CR>
