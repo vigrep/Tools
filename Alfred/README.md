@@ -11,6 +11,7 @@
 | [Source Tree](#SourceTree)             | 用Source Tree打开罗列的git项目                            |
 | [Tools](#Tools)                        | 常用工具集合：用MacVim打开选中的文件等                    |
 | [Keymap](#Keymap)                      | 输入关键字触发按键组合(可配合Magnet窗口管理软件等使用)    |
+| [CopyPath](#CopyPath)                  | 将当前选中的文件路径复制到系统粘贴板中                    |
 
 ### 获取IP地址
 
@@ -191,3 +192,10 @@ apple key code list（后面会用到这个清单！）:
 | RightArrow          | 124  |
 | DownArrow           | 125  |
 | UpArrow             | 126  |
+
+### CopyPath
+
+将当前选中的文件路径复制到系统粘贴板中
+
+1. 在`Finder`中选中文件
+2. 唤起`Alfred`，输入`path`，回车
