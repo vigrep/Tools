@@ -12,6 +12,7 @@
 | [Tools](#Tools)                        | 常用工具集合：用MacVim打开选中的文件等                    |
 | [Keymap](#Keymap)                      | 输入关键字触发按键组合(可配合Magnet窗口管理软件等使用)    |
 | [CopyPath](#CopyPath)                  | 将当前选中的文件路径复制到系统粘贴板中                    |
+| [Keywords-job](#Keywords-job)          | 工作常用：快速打开某个项目、工作日志、导出android日志文件 |
 
 ### 获取IP地址
 
@@ -199,3 +200,13 @@ apple key code list（后面会用到这个清单！）:
 
 1. 在`Finder`中选中文件
 2. 唤起`Alfred`，输入`path`，回车
+
+### Keywords-job
+
+工作中常用操作：
+
+- 用Android Studio打开某个项目
+- 用Xcode打开某个项目
+- 用某个IDE打开某个项目
+- 用git软件打开某个git项目
+- 用adb导出文件
