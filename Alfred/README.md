@@ -13,6 +13,7 @@
 | [Keymap](#Keymap)                      | 输入关键字触发按键组合(可配合Magnet窗口管理软件等使用)    |
 | [CopyPath](#CopyPath)                  | 将当前选中的文件路径复制到系统粘贴板中                    |
 | [Keywords-job](#Keywords-job)          | 工作常用：快速打开某个项目、工作日志、导出android日志文件 |
+| [strongJson](#strongJson)              | 格式化json(json某字段值是字符串格式的json也会被格式化)    |
 
 ### 获取IP地址
 
@@ -210,3 +211,10 @@ apple key code list（后面会用到这个清单！）:
 - 用某个IDE打开某个项目
 - 用git软件打开某个git项目
 - 用adb导出文件
+
+### strongJson
+
+格式化json(json某字段值是字符串格式的json也会被格式化)
+
+1. 将需要转换的json文本拷贝到系统粘贴板中
+2. 唤起`Alfred`，输入`cnd-strongjson`，回车，格式化完的结果会拷贝到系统粘贴板中
